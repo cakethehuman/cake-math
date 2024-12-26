@@ -5,6 +5,6 @@ import (
 	"log"
 )
 
-func hello() {
-	log.Println("Hello, World!")
+func Loginfo(message string) {
+	log.Printf("Hello, %v ", message)
 }
