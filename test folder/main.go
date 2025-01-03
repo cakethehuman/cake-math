@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/cakethehuman/cakemath"
+
+	"github.com/cakethehuman/cake-math"
 )
 
 func main() {
-	fmt.Println("Add:", cake_math.Add(2, 3))
+	fmt.Println("Add:", cake.Add(2, 3))
 }
