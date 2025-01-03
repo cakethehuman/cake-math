@@ -1,10 +1,10 @@
-package Mylogger
+package cake_math
 
-import (
-	_ "fmt"
-	"log"
-)
+func Add(a, b int) int {
+	return a + b
+}
 
-func Loginfo(message string) {
-	log.Printf("Hello, %v ", message)
+// Subtract subtracts the second integer from the first and returns the result.
+func Subtract(a, b int) int {
+	return a - b
 }
