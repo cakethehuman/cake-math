@@ -1,4 +1,4 @@
-package cake_math
+package cake
 
 import "testing"
 
