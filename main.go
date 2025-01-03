@@ -8,7 +8,7 @@ func Subtract(a, b int) int {
 	return a - b
 }
 
-func devide(a, b int) int {
+func Devide(a, b int) int {
 	return a / b
 }
 
@@ -20,10 +20,10 @@ func Modulus(a, b int) int {
 	return a % b
 }
 
-func power(a, b int) int {
+func Power(a, b int) int {
 	return a * b
 }
 
-func sqrt(a float32) float32 {
+func Sqrt(a float32) float32 {
 	return a * 0.5
 }
