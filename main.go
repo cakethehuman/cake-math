@@ -27,3 +27,11 @@ func Power(a, b int) int {
 func Sqrt(a float32) float32 {
 	return a * 0.5
 }
+
+func Cube(a int) int {
+	return a * a * a
+}
+
+func Acos(a float32) float32 {
+	return a * (3.14 / 180)
+}
