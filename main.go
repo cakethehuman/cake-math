@@ -1,5 +1,7 @@
 package cake
 
+import "fmt"
+
 func Add(a, b int) int {
 	return a + b
 }
@@ -32,6 +34,11 @@ func Cube(a int) int {
 	return a * a * a
 }
 
-func Acos(a float32) float32 {
-	return a * (3.14 / 180)
+func Ln(a float32) float32 {
+	if a <= 0 {
+		return "must be positive"
 }
+
+//func Acos(a float32) float32 {
+//return (a * 3.14 / 180)
+//}

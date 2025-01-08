@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/cakethehuman/cake-math"
 )
 
 func main() {
-	fmt.Println("result", cake.devide(2, 9))
+	fmt.Println("result", cake.Acos(180))
 }
